@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="control-panel">
+    <h1>Control Panel</h1>
+
+    <form id="scoreForm">
+      <label for="homeTeam">Home Team:</label>
+      <input type="text" id="homeTeam" name="homeTeam" placeholder="Enter Home Team Name" required>
+
+      <label for="awayTeam">Away Team:</label>
+      <input type="text" id="awayTeam" name="awayTeam" placeholder="Enter Away Team Name" required>
+
+      <label for="homeScore">Home Score:</label>
+      <input type="number" id="homeScore" name="homeScore" value="0" required>
+
+      <label for="awayScore">Away Score:</label>
+      <input type="number" id="awayScore" name="awayScore" value="0" required>
+
+      <button type="submit">Update Score</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

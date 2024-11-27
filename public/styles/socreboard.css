@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: none; /* Dark background for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+/* Scoreboard Container */
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: none; /* Semi-transparent background */
+  border-radius: 7px;
+  padding: 20px;
+  /* width: 350px; */
+}
+
+.time-section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 22px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.match-time {
+  
+  font-size: 30px;
+  font-weight: bold;
+  color: white; 
+}
+.period-section { 
+  margin-bottom: 10px;
+}
+.period{
+  background: #000000d1;
+  padding: 9px;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  justify-content: left;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Score Section */
+.score-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 48px;
+  background-color: #000000d1 ;
+  border-radius: 7px ;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.team-name {
+  margin-right: 5px;
+  background-color: #2b2b2eda;
+}
+.team-name span {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.score {
+
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.score-divider {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
